@@ -4,6 +4,8 @@ import SearchBar from '../../components/students/SearchBar'
 import Companies from '../../components/students/Companies'
 import CoursesSection from '../../components/students/CoursesSection'
 import TestimonialSection from '../../components/students/TestimonialSection'
+import CallToAction from '../../components/students/CallToAction'
+import Footer from '../../components/students/Footer'
 
 function Home() {
   return (
@@ -12,6 +14,8 @@ function Home() {
         <Companies/>
         <CoursesSection/>
         <TestimonialSection/>
+        <CallToAction/>
+        <Footer/>
     </div>
   )
 }
